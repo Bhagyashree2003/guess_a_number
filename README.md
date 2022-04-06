@@ -2,11 +2,16 @@
 java code game in which user gusseing the number.
 
 import java.util.*;
+
 import java.util.Random;
+
 class game
+
 {
 	public int number;
+	
 	public int inputnumber;
+	
 	public int noofguesses=0;
 
 	public int gettwonumber()
@@ -54,11 +59,19 @@ class guess_number
 	public static void main(String args[])
 	{
 		boolean b=false;
+		
 		game g=new game();
+		
 		while(!b){
+		
 		g.takeuserinput();
+		
 	        b=g.iscorrectnumber();
+		
 		System.out.println(b);
+		
 		}
+		
 	}
+	
 }
